@@ -1,38 +1,40 @@
-# Interactive AI Chatbot Application
+## Interactive AI Chatbot Application
 
 This is an chatbot application built using FastAPI for the backend and React for the frontend. The chatbot integrates with open-source LLMs from Hugging Face to generate responses.
 
-** Features
+----
+
+**Features**
 - Uses FastAPI as the backend framework
 - React-based frontend with an easy-to-use UI
 - Select from multiple open-source LLM models
 - Supports CORS to enable frontend-backend communication
 
----
+----
 
-** Technologies Used
+**Technologies Used**
 
-* Backend:
+1. **Backend:**
 - FastAPI (Python)
 - Hugging Face API for LLM integration
 - Pydantic for request validation
 - CORS middleware for frontend compatibility
 
-* Frontend:
+2. **Frontend:**
 - React (JavaScript)
 - CSS Modules for styling
 - Lucide-react for icons
 
----
+----
 
-** Installation and Setup
+**Installation and Setup**
 
-* Prerequisites:
+**Prerequisites:**
 - Python 3.8+
 - Node.js & npm
 - Hugging Face API key
 
-* Backend Setup:
+**Backend Setup:**
 
 1. Create a virtual environment:
    use venv\Scripts\activate
@@ -45,7 +47,7 @@ This is an chatbot application built using FastAPI for the backend and React for
    
 4. The API will be available at `http://127.0.0.1:8000`.
 
-* Frontend Setup:
+**Frontend Setup:**
 
 1. Install dependencies:
    npm install
@@ -55,9 +57,9 @@ This is an chatbot application built using FastAPI for the backend and React for
 
 3. The frontend will be available at `http://localhost:3000`.
 
----
+----
 
-** Usage
+**Usage**
 1. Open the frontend (`http://localhost:3000`).
 2. Select a model from the dropdown menu.
 3. Type a message and press Enter or click the send button.
